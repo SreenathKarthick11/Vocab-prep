@@ -139,7 +139,12 @@ button:hover {
         align-items: stretch;
     }
 
-    input[type="number"],
+    input[type="number"]{
+        width: 94%;
+        font-size: 16px;
+        padding: 12px;
+        margin: 5px 0;
+    }
     button {
         width: 100%;
         font-size: 16px;
