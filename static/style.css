@@ -98,3 +98,47 @@ button:hover {
     font-weight: bold;
     color: rgb(1, 18, 32);
 }
+
+@media (max-width: 600px) {
+    body {
+        margin: 20px;
+        background-attachment: scroll; /* for smoother experience on mobile */
+    }
+
+    #container {
+        margin: 40px 0;
+        padding: 20px;
+        border-width: 3px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    label, p {
+        font-size: 18px;
+    }
+
+    input[type="number"] {
+        width: 80px;
+        font-size: 14px;
+        margin-left: 5px;
+    }
+
+    button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    .quiz-block p {
+        font-size: 18px;
+    }
+
+    .quiz-block label {
+        font-size: 14px;
+    }
+
+    #result {
+        font-size: 18px;
+    }
+}
