@@ -1,0 +1,100 @@
+body {
+    font-family: 'Poppins';
+    margin: 40px;
+    background-color: #f8f9fa;
+    color: #13324b;
+    background-image: url('/static/background3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;    /* ✅ Keeps the image fixed during scroll */
+}
+#container {
+    max-width: 600px;
+    margin: 80px auto;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.799); /* translucent dark background */
+    color: rgb(5, 44, 77);
+    text-align: center;
+    border-radius: 16px;
+    box-shadow:  8px 12px rgba(2, 36, 59, 0.508);
+    border: 5px solid rgb(1, 26, 62);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+    color: #031e38;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+label, p {
+    font-size: 24px;
+}
+
+input[type="number"] {
+    padding: 8px;
+    font-size: 16px;
+    width: 100px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #313131;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0f4b87;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #13304f;
+}
+
+#quiz-container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.quiz-block {
+    background-color: rgba(255, 255, 255, 0.695);
+    border: 2px solid rgb(1, 26, 62); 
+    width: 90%;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(1, 26, 62, 0.216);
+    transition: transform 0.2s ease-in-out;
+}
+
+.quiz-block:hover {
+    transform: scale(1.05);
+}
+
+.quiz-block p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.quiz-block label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#result {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(1, 18, 32);
+}
